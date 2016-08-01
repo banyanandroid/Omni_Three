@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_cap7"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/cap_back"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mechanism"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:id="@+id/cap7_headtxt"
+            android:layout_marginLeft="128dp"
+            android:layout_marginStart="128dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cap7_img"
+            android:layout_toEndOf="@+id/cap7_img"
+            android:layout_marginTop="290dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Capsaicin stimulates catecholamine production by the TRPV1 receptor, which leads to an increased energy expenditure by stimulation of the sympathetic nervous system and the upregulation of UCPs. TRPV1, transient receptor potential vanilloid, SNS, sympathetic nervous system, UCP, uncoupling protein."
+            android:id="@+id/cap7_txt"
+            android:textSize="30sp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/cap7_headtxt"
+            android:layout_alignLeft="@+id/cap7_headtxt"
+            android:layout_alignStart="@+id/cap7_headtxt" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap7_img"
+            android:clickable="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/cap7_img"
+            android:layout_marginLeft="226dp"
+            android:layout_marginStart="226dp"
+            android:layout_alignTop="@+id/cap7_headtxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</FrameLayout>

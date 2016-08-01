@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag19"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="UltraSOL"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#000080"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frag20_headtxt2"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView5"
+            android:layout_toStartOf="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="improves Bio-Availability"
+            android:id="@+id/textView5"
+            android:textColor="#000080"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/frag20_tableimg"
+            android:layout_alignEnd="@+id/frag20_tableimg"
+            android:layout_marginRight="45dp"
+            android:layout_marginEnd="45dp" />
+
+        <ImageView
+            android:layout_width="550dp"
+            android:layout_height="250dp"
+            android:id="@+id/frag20_tableimg"
+            android:layout_marginBottom="-15dp"
+            android:src="@drawable/frag6_img1"
+            android:layout_below="@+id/frag20_headtxt2"
+            android:layout_alignRight="@+id/imageView10"
+            android:layout_alignEnd="@+id/imageView10"
+            android:layout_marginRight="96dp"
+            android:layout_marginEnd="96dp" />
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageView9"
+            android:src="@drawable/frag6_img2"
+            android:layout_below="@+id/frag20_tableimg"
+            android:layout_toLeftOf="@+id/textView6"
+            android:layout_toStartOf="@+id/textView6"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageView10"
+            android:src="@drawable/frag6_img3"
+            android:layout_alignTop="@+id/imageView9"
+            android:layout_toRightOf="@+id/textView6"
+            android:layout_toEndOf="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="* Data in File"
+            android:id="@+id/textView6"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

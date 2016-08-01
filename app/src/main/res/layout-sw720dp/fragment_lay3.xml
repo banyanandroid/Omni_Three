@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag3"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/omni_img_frag3"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/omni_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="49dp"
+            android:layout_marginStart="49dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The First R &amp; D based pure play"
+            android:id="@+id/frag3_txt1"
+            android:textSize="58sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_below="@+id/omni_img_frag3"
+            android:layout_alignLeft="@+id/omni_img_frag3"
+            android:layout_alignStart="@+id/omni_img_frag3"
+            android:layout_marginTop="52dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nutraceutical Company (SJM group)"
+            android:id="@+id/frag3_txt2"
+            android:textSize="58sp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="95dp"
+            android:layout_marginEnd="95dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/video_img"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="52dp"
+            android:src="@android:drawable/presence_video_online"
+            android:layout_alignRight="@+id/frag3_txt1"
+            android:layout_alignEnd="@+id/frag3_txt1"
+            android:layout_toRightOf="@+id/omni_img_frag3"
+            android:layout_toEndOf="@+id/omni_img_frag3"
+            android:layout_below="@+id/frag3_txt2" />
+
+        <!--<ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:id="@+id/frag3_logoimg"
+            android:src="@drawable/logo_img"
+            android:layout_below="@+id/frag3_txt2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Energize mitochondria, vitalize cells"
+            android:id="@+id/frag3_txt3"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/frag3_logoimg"
+            android:layout_centerHorizontal="true" />-->
+    </RelativeLayout>
+
+
+</FrameLayout>

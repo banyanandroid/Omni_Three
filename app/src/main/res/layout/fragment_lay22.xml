@@ -1,0 +1,176 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag22"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Energize mitochondria and vitalize male fertility"
+            android:id="@+id/frag22_head_txt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Recent clinical evidence"
+            android:id="@+id/frag22_txt"
+            android:textColor="@color/white"
+            android:background="@drawable/frag14_img"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag22_head_txt"
+            android:layout_alignLeft="@+id/frag22_head_txt"
+            android:layout_alignStart="@+id/frag22_head_txt" />
+
+        <TextView
+            android:layout_width="670dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="After four months of supplementation with 150mg of Ubiquinol"
+            android:id="@+id/textView"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/frag22_txt"
+            android:layout_alignLeft="@+id/frag22_txt"
+            android:layout_alignStart="@+id/frag22_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:padding="1dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total sperm count increased by 53%"
+            android:id="@+id/textView3"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_toEndOf="@+id/imageView3" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView5"
+            android:padding="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total sperm mobility improved by 26%"
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView6"
+            android:padding="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="670dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The quantity of rapidly motile sperm (RMS) increased to 41%,"
+            android:id="@+id/textView24"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView7"
+            android:padding="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textView24"
+            android:layout_alignLeft="@+id/imageView6"
+            android:layout_alignStart="@+id/imageView6"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Number of sluggishly motile sperm (SMS) decreased to 29%"
+            android:id="@+id/textView34"
+            android:textSize="20sp"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_alignStart="@+id/textView24"
+            android:layout_alignRight="@+id/textView24"
+            android:layout_alignEnd="@+id/textView24" />
+
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Better protection of testicular sperms against oxidative stress has been attributed"
+            android:id="@+id/textView41"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView34"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

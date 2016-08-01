@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag8"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Energize mitochondria and vitalize cardiac functions"
+            android:id="@+id/frag8_head"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:layout_marginTop="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/frag8_cadimg"
+            android:layout_alignEnd="@+id/frag8_cadimg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag8_chfimg"
+            android:src="@drawable/frag8_chfimg"
+            android:layout_alignTop="@+id/frag8_heartimg"
+            android:layout_alignLeft="@+id/frag8_head"
+            android:layout_alignStart="@+id/frag8_head" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag8_heartimg"
+            android:src="@drawable/frag8_heartimg"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/frag8_head"
+            android:layout_toRightOf="@+id/frag8_chfimg"
+            android:layout_toEndOf="@+id/frag8_chfimg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag8_cardimg"
+            android:src="@drawable/frag8_cardimg"
+            android:layout_marginBottom="10dp"
+            android:layout_alignBottom="@+id/frag8_heartimg"
+            android:layout_alignLeft="@+id/frag8_chfimg"
+            android:layout_alignStart="@+id/frag8_chfimg"
+            android:layout_alignRight="@+id/frag8_chfimg"
+            android:layout_alignEnd="@+id/frag8_chfimg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag8_cadimg"
+            android:src="@drawable/frag8_cadimg"
+            android:layout_marginRight="249dp"
+            android:layout_marginEnd="249dp"
+            android:layout_alignTop="@+id/frag8_heartimg"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:id="@+id/frag8_amiimg"
+            android:src="@drawable/frag8_amiing"
+            android:scaleType="fitXY"
+            android:layout_alignTop="@+id/frag8_cardimg"
+            android:layout_alignLeft="@+id/frag8_cadimg"
+            android:layout_alignStart="@+id/frag8_cadimg"
+            android:layout_alignRight="@+id/frag8_cadimg"
+            android:layout_alignEnd="@+id/frag8_cadimg" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:id="@+id/frag8_hypimg"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/frag8_hypimg"
+            android:layout_below="@+id/frag8_heartimg"
+            android:layout_alignLeft="@+id/frag8_heartimg"
+            android:layout_alignStart="@+id/frag8_heartimg"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp" />
+    </RelativeLayout>
+
+
+</FrameLayout>

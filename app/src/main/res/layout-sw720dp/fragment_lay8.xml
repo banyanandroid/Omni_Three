@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag8"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Energize mitochondria and vitalize cardiac functions"
+            android:id="@+id/frag8_head"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView56"
+            android:layout_alignEnd="@+id/imageView56"
+            android:layout_marginTop="75dp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:id="@+id/imageView51"
+            android:layout_marginLeft="400dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/frag8_heartimg" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView56"
+            android:layout_alignTop="@+id/imageView51"
+            android:layout_toRightOf="@+id/imageView51"
+            android:layout_toEndOf="@+id/imageView51"
+            android:src="@drawable/frag8_cadimg" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView57"
+            android:src="@drawable/frag8_chfimg"
+            android:layout_alignTop="@+id/imageView51"
+            android:layout_alignLeft="@+id/frag8_head"
+            android:layout_alignStart="@+id/frag8_head" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView58"
+            android:layout_alignBottom="@+id/imageView51"
+            android:layout_alignLeft="@+id/imageView56"
+            android:layout_alignStart="@+id/imageView56"
+            android:src="@drawable/frag8_amiing" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView59"
+            android:layout_alignBottom="@+id/imageView58"
+            android:layout_alignRight="@+id/imageView57"
+            android:layout_alignEnd="@+id/imageView57"
+            android:src="@drawable/frag8_cardimg" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView60"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/imageView51"
+            android:layout_alignLeft="@+id/imageView51"
+            android:layout_alignStart="@+id/imageView51"
+            android:src="@drawable/frag8_hypimg" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

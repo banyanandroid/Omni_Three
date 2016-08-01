@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag13"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|bottom">
+
+
+        <ImageView
+            android:layout_width="900dp"
+            android:layout_height="120dp"
+            android:id="@+id/frag10_headimg"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/frag13_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/frag13_bullimg"
+            android:layout_marginTop="20dp"
+            android:padding="1dp"
+            android:layout_alignLeft="@+id/frag10_headimg"
+            android:layout_alignStart="@+id/frag10_headimg"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/bullet_img"
+            android:layout_below="@+id/frag10_headimg" />
+
+        <TextView
+            android:layout_width="660dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Corrects arrhythmias and QT interval prolongation"
+            android:id="@+id/textView11"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:layout_alignTop="@+id/frag13_bullimg"
+            android:layout_toRightOf="@+id/frag13_bullimg"
+            android:layout_alignRight="@+id/frag10_headimg"
+            android:layout_alignEnd="@+id/frag10_headimg" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView23"
+            android:layout_below="@+id/textView11"
+            android:layout_alignLeft="@+id/frag13_bullimg"
+            android:layout_alignStart="@+id/frag13_bullimg"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="660dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Decreases lipoprotein (a)"
+            android:textColor="@color/black"
+            android:id="@+id/textView12"
+            android:textSize="40sp"
+            android:layout_alignTop="@+id/imageView23"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_alignRight="@+id/frag10_headimg"
+            android:layout_alignEnd="@+id/frag10_headimg" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView22"
+            android:layout_below="@+id/textView12"
+            android:layout_alignLeft="@+id/imageView23"
+            android:layout_alignStart="@+id/imageView23"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="660dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Decreases concentration of monocyte adhesion molecules and reduces plaque instability"
+            android:id="@+id/textView13"
+            android:textSize="40sp"
+            android:layout_alignTop="@+id/imageView22"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_alignRight="@+id/frag10_headimg"
+            android:layout_alignEnd="@+id/frag10_headimg" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView24"
+            android:layout_below="@+id/textView13"
+            android:layout_alignLeft="@+id/imageView22"
+            android:layout_alignStart="@+id/imageView22"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="660dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Favorably modules insulin response"
+            android:id="@+id/textView14"
+            android:layout_alignTop="@+id/imageView24"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignRight="@+id/textView13"
+            android:layout_alignEnd="@+id/textView13" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

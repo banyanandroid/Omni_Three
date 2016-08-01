@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_cap4img"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap4_img"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/cap4_img2"
+            android:layout_marginLeft="85dp"
+            android:layout_marginStart="85dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp"
+            android:layout_toLeftOf="@+id/prev_img"
+            android:layout_toStartOf="@+id/prev_img"
+            android:layout_alignParentBottom="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prev_img"
+            android:src="@drawable/prev"
+            android:layout_marginRight="55dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="60dp"
+            android:layout_alignBottom="@+id/cap4_img"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ph sensitive coating to not allow any release in the stomach \nto facilitate release only in the intestine for consumers."
+            android:id="@+id/textView73"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/cap4_img"
+            android:layout_alignStart="@+id/cap4_img"
+            android:layout_alignRight="@+id/cap4_img"
+            android:layout_alignEnd="@+id/cap4_img" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_cap1"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_img"
+            android:layout_marginRight="52dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/next"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textView2"
+            android:layout_alignBottom="@+id/next_img"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="410dp"
+            android:id="@+id/cap1_img1"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/cap1_img1"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="230dp"
+            android:id="@+id/cap1_img2"
+            android:src="@drawable/cap1_img2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/cap1_img1"
+            android:layout_alignStart="@+id/cap1_img1"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp" />
+
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="360dp"
+            android:id="@+id/cap1_img3"
+            android:src="@drawable/cap1_img3"        
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_toRightOf="@+id/cap1_img2"
+            android:layout_toEndOf="@+id/cap1_img2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="It’s"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/cap1_txt1"
+            android:layout_below="@+id/cap1_img3"
+            android:layout_toRightOf="@+id/cap1_img1"
+            android:layout_toEndOf="@+id/cap1_img1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TIME"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/cap1_txt2"
+            android:layout_below="@+id/cap1_img3"
+            android:layout_toRightOf="@+id/cap1_txt1"
+            android:layout_toEndOf="@+id/cap1_txt1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="to take care of"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/cap1_txt3"
+            android:layout_alignBottom="@+id/cap1_txt2"
+            android:layout_toRightOf="@+id/cap1_txt2"
+            android:layout_toEndOf="@+id/cap1_txt2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="visceral fat"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/cap1_txt4"
+            android:layout_below="@+id/cap1_txt1"
+            android:layout_alignLeft="@+id/cap1_txt1"
+            android:layout_alignStart="@+id/cap1_txt1" />
+    </RelativeLayout>
+
+</FrameLayout>

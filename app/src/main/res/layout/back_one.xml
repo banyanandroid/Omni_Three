@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:src="@drawable/back_omni"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prev_img"
+        android:clickable="true"
+        android:src="@drawable/prev"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/next_img"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_img"
+        android:src="@drawable/next"
+        android:clickable="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="12"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/text_no"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/prev_img"
+        android:layout_alignLeft="@+id/prev_img"
+        android:layout_alignStart="@+id/prev_img" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/logo_img"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/logo_img" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Energize mitochondria, vitalize cells"
+        android:id="@+id/logo_txt"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/logo_img"
+        android:layout_toRightOf="@+id/text_no"
+        android:layout_toEndOf="@+id/text_no" />
+
+
+</RelativeLayout>

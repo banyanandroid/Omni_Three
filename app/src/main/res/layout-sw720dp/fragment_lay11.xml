@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag11"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
+
+        <ImageView
+            android:layout_width="850dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/frag10_headimg"
+            android:src="@drawable/frag10_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView19"
+            android:paddingTop="2dp"
+            android:padding="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/bullet_img"
+            android:layout_below="@+id/frag10_headimg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increase myocardial and cardiac mitochondrial CoQ 10 levels"
+            android:id="@+id/frag10_pt1_txt"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/imageView19"
+            android:layout_toRightOf="@+id/imageView19"
+            android:layout_toEndOf="@+id/imageView19" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView20"
+            android:padding="1dp"
+            android:paddingTop="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/frag10_pt1_txt"
+            android:layout_alignLeft="@+id/imageView19"
+            android:layout_alignStart="@+id/imageView19"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Improve mitochondrial efficiency and increase myocardial tolerance to hypoxia-reoxygenration stress."
+            android:id="@+id/frag10_pt2_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="210dp"
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/imageView20"
+            android:layout_alignLeft="@+id/frag10_pt1_txt"
+            android:layout_alignStart="@+id/frag10_pt1_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageButton"
+            android:padding="1dp"
+            android:paddingTop="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/frag10_pt2_txt"
+            android:layout_alignLeft="@+id/imageView20"
+            android:layout_alignStart="@+id/imageView20"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reduce reperfusion injury, reduce surgical complications and accelerate recovery times."
+            android:id="@+id/frag10_pt3_txt"
+            android:layout_marginRight="230dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_alignLeft="@+id/frag10_pt2_txt"
+            android:layout_alignStart="@+id/frag10_pt2_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Especially of use for older patients who have lower circulating CoQ 10 and generally do not respond well to surgery as younger patients, possibly do to age-related reduction in cellular energy."
+            android:id="@+id/frag10_pt4_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:layout_below="@+id/frag10_pt3_txt"
+            android:layout_alignLeft="@+id/frag10_pt3_txt"
+            android:layout_alignStart="@+id/frag10_pt3_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="“2 weeks of pre-operative surgery"
+            android:id="@+id/textView8"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginBottom="15dp"
+            android:layout_above="@+id/frag10_pt1_txt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="72dp"
+            android:layout_marginStart="72dp" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

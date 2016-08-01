@@ -1,0 +1,192 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag16"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView32"
+            android:scaleType="fitXY"
+            android:src="@drawable/frag16_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Global Falling…."
+            android:id="@+id/textView25"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/imageView34"
+            android:layout_alignStart="@+id/imageView34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="“Fall in sperm quality and quantity is worldwide phenomenon-including India”"
+            android:id="@+id/textView26"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView25"
+            android:layout_alignLeft="@+id/textView25"
+            android:layout_alignStart="@+id/textView25" />
+
+        <ImageView
+            android:layout_width="550dp"
+            android:layout_height="340dp"
+            android:id="@+id/imageView34"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView26"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="53dp"
+            android:layout_marginStart="53dp"
+            android:src="@drawable/frag16_img2" />
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="310dp"
+            android:id="@+id/imageView35"
+            android:src="@drawable/frag16_img1"
+            android:layout_alignTop="@+id/imageView34"
+            android:layout_toRightOf="@+id/imageView34"
+            android:layout_toEndOf="@+id/imageView34" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView36"
+            android:layout_marginLeft="39dp"
+            android:paddingTop="4dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/red_bulletimg"
+            android:layout_below="@+id/imageView34"
+            android:layout_toRightOf="@+id/txt_no"
+            android:layout_toEndOf="@+id/txt_no"
+            android:layout_marginStart="39dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increased incidence of oligoasthenoteratozoospermia (OAT)"
+            android:id="@+id/textView27"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView36"
+            android:layout_toRightOf="@+id/imageView36"
+            android:layout_toEndOf="@+id/imageView36" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView37"
+            android:paddingTop="4dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/textView27"
+            android:layout_alignLeft="@+id/imageView36"
+            android:layout_alignStart="@+id/imageView36"
+            android:src="@drawable/red_bulletimg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Decreasing ovarian reserves and oocyte quality"
+            android:id="@+id/textView28"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView37"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_alignStart="@+id/textView27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Aggravates:"
+            android:id="@+id/textView29"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/red"
+            android:textSize="26sp"
+            android:layout_below="@+id/textView28"
+            android:layout_alignLeft="@+id/textView28"
+            android:layout_alignStart="@+id/textView28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Oxidative stress, decreased antioxidant capacity,"
+            android:id="@+id/textView30"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/textView29"
+            android:layout_toRightOf="@+id/textView29"
+            android:layout_toEndOf="@+id/textView29" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="and impaired sperm mitochondrial functions"
+            android:id="@+id/textView31"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/textView29"
+            android:layout_alignLeft="@+id/textView29"
+            android:layout_alignStart="@+id/textView29" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="16"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_no"
+            android:layout_below="@+id/textView31"
+            android:layout_alignLeft="@+id/imageView34"
+            android:layout_alignStart="@+id/imageView34" />
+    </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_img"
+            android:clickable="true"
+            android:layout_marginRight="54dp"
+            android:layout_marginBottom="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/relativeLayout"
+            android:layout_alignEnd="@+id/relativeLayout"
+            android:src="@drawable/next" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,201 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_cap8"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/cap_back"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:layout_marginLeft="20sp"
+            android:text="Udani J. Efficacy of Capsimax: A randomized, double-blind, placebo-controlled, dose-finding, adaptive-design study. OMNI1000, Medicus Research, Northridge, CA. Oct 2012. Unpublished data 2012."
+            android:id="@+id/cap8_notetxt"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/cap8_bottelimg"
+            android:layout_alignStart="@+id/cap8_bottelimg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView50"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="155dp"
+            android:layout_marginStart="155dp"
+            android:src="@drawable/cap8_img1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="All overweight and obese patients with \nBMI &lt; 23 kg/m2, with/without"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView58"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView50"
+            android:layout_alignLeft="@+id/imageView50"
+            android:layout_alignStart="@+id/imageView50" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap8_bull1"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/textView58"
+            android:layout_toLeftOf="@+id/textView58"
+            android:layout_toStartOf="@+id/textView58"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Co-morbid conditions"
+            android:id="@+id/textView59"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/cap8_bull1"
+            android:layout_alignLeft="@+id/textView58"
+            android:layout_alignStart="@+id/textView58" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView52"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:src="@drawable/cap_red_arrow_img"
+            android:layout_below="@+id/cap8_bull1"
+            android:layout_toLeftOf="@+id/textView59"
+            android:layout_toStartOf="@+id/textView59" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Diabetes"
+            android:textColor="@color/black"
+            android:id="@+id/textView60"
+            android:layout_alignTop="@+id/imageView52"
+            android:layout_alignLeft="@+id/textView59"
+            android:layout_alignStart="@+id/textView59" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap8_bull3"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/textView60"
+            android:layout_alignLeft="@+id/imageView52"
+            android:layout_alignStart="@+id/imageView52"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hypertension"
+            android:textColor="@color/black"
+            android:id="@+id/textView70"
+            android:layout_alignTop="@+id/cap8_bull3"
+            android:layout_alignLeft="@+id/textView60"
+            android:layout_alignStart="@+id/textView60" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView53"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/cap8_bull3"
+            android:layout_alignLeft="@+id/cap8_bull3"
+            android:layout_alignStart="@+id/cap8_bull3"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Arthritis"
+            android:textColor="@color/black"
+            android:id="@+id/textView71"
+            android:layout_alignTop="@+id/imageView53"
+            android:layout_alignLeft="@+id/textView70"
+            android:layout_alignStart="@+id/textView70" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView54"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/textView71"
+            android:layout_alignLeft="@+id/imageView53"
+            android:layout_alignStart="@+id/imageView53"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Liver diseases (NASH)"
+            android:id="@+id/textView72"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView54"
+            android:layout_alignLeft="@+id/textView71"
+            android:layout_alignStart="@+id/textView71" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap8_bottelimg"
+            android:src="@drawable/cap_bottelimg"
+            android:layout_above="@+id/cap8_notetxt"
+            android:layout_toRightOf="@+id/imageView50"
+            android:layout_toEndOf="@+id/imageView50"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:layout_alignTop="@+id/imageView50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dosage"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:id="@+id/cap_txtdose"
+            android:layout_below="@+id/textView58"
+            android:layout_alignLeft="@+id/cap8_bottelimg"
+            android:layout_alignStart="@+id/cap8_bottelimg"
+            android:layout_marginLeft="168dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:text="1-2 cap twice daily, prior to major meal Along with exercise and low calorie diet plan"
+            android:id="@+id/cap_dose_txt1"
+            android:textColor="@color/black"
+            android:layout_below="@+id/textView59"
+            android:layout_alignLeft="@+id/cap_txtdose"
+            android:layout_alignStart="@+id/cap_txtdose" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag24"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Energize mitochondria and vitalize Female fertility"
+            android:id="@+id/frag24_head_txt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="34dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag27_img"
+            android:layout_below="@+id/frag24_head_txt"
+            android:layout_alignLeft="@+id/frag24_head_txt"
+            android:layout_alignStart="@+id/frag24_head_txt"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/frag7_img" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CoQ 10 level starts declining from 30, results in decline in fertility and the increase in embryo aneuploidies"
+            android:id="@+id/frag24_txt1"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@+id/frag27_img"
+            android:layout_toRightOf="@+id/frag27_img"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Aggravates:"
+            android:id="@+id/frag24_txt2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/red"
+            android:layout_below="@+id/frag27_img"
+            android:layout_toLeftOf="@+id/frag24_txt3"
+            android:layout_toStartOf="@+id/frag24_txt3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Oxidative stress, decreased antioxidant"
+            android:id="@+id/frag24_txt3"
+            android:layout_marginRight="81dp"
+            android:layout_alignTop="@+id/frag24_txt2"
+            android:layout_alignRight="@+id/frag24_txt1"
+            android:layout_alignEnd="@+id/frag24_txt1"
+            android:layout_marginEnd="81dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="capacity, and impaired sperm mitochondrial functions"
+            android:id="@+id/frag21_txt4"
+            android:layout_below="@+id/frag24_txt2"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

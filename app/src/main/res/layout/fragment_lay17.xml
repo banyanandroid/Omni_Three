@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag17"
+    android:background="@color/white"
+    tools:context=".Fragment_17">
+
+  <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView38"
+            android:src="@drawable/omni_img"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The First R &amp; D based pure play"
+            android:id="@+id/textView32"
+            android:layout_marginLeft="75dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginBottom="45dp"
+            android:layout_above="@+id/textView33"
+            android:layout_alignLeft="@+id/imageView38"
+            android:layout_alignStart="@+id/imageView38" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nutraceutical Company (SJM group)"
+            android:id="@+id/textView33"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView40"
+            android:src="@drawable/frag4_img"
+            android:layout_marginBottom="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

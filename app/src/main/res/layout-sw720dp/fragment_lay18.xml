@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag18"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/back_lay"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:layout_width="550dp"
+            android:layout_height="200dp"
+            android:id="@+id/frag18_headimg"
+            android:src="@drawable/frag5_headimg"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CRIT benefits:"
+            android:id="@+id/frag18_headtxt"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_below="@+id/frag18_headimg"
+            android:layout_toLeftOf="@+id/frag18_headimg"
+            android:layout_toStartOf="@+id/frag18_headimg" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag18_bull1"
+            android:layout_marginTop="15dp"
+            android:paddingTop="1dp"
+            android:layout_below="@+id/frag18_headtxt"
+            android:layout_toLeftOf="@+id/frag18_headtxt"
+            android:src="@drawable/bullet_img"
+            android:layout_alignLeft="@+id/frag18_bull4"
+            android:layout_alignStart="@+id/frag18_bull4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Converts fat soluble substance to water soluble"
+            android:id="@+id/frag5_pt1"
+            android:textSize="35sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag18_bull1"
+            android:layout_alignLeft="@+id/frag18_headtxt"
+            android:layout_alignStart="@+id/frag18_headtxt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag18_bull2"
+            android:paddingTop="5dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/bullet_img"
+            android:layout_below="@+id/frag5_pt1"
+            android:layout_toLeftOf="@+id/frag5_pt1"
+            android:layout_toStartOf="@+id/frag5_pt1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reduces particle size at the absorption point"
+            android:id="@+id/frag5_pt2"
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/frag18_bull2"
+            android:layout_alignLeft="@+id/frag5_pt1"
+            android:layout_alignStart="@+id/frag5_pt1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag18_bull3"
+            android:layout_marginTop="8dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/frag5_pt2"
+            android:layout_alignLeft="@+id/frag18_bull2"
+            android:layout_alignStart="@+id/frag18_bull2"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increases the stability of sensitive ingredients by protecting from oxidation"
+            android:id="@+id/frag5_pt3"
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/frag18_bull3"
+            android:layout_alignLeft="@+id/frag5_pt2"
+            android:layout_alignStart="@+id/frag5_pt2"
+            android:layout_alignRight="@+id/frag5_pt1"
+            android:layout_alignEnd="@+id/frag5_pt1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag18_bull4"
+            android:paddingTop="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/frag5_pt3"
+            android:layout_toLeftOf="@+id/frag5_pt1"
+            android:layout_toStartOf="@+id/frag5_pt1"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Translates erratic absorption to smooth"
+            android:id="@+id/frag5_pt4"
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/frag18_bull4"
+            android:layout_alignLeft="@+id/frag5_pt3"
+            android:layout_alignStart="@+id/frag5_pt3" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:id="@+id/frag18_img1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/frag5_roundimg1"
+            android:layout_below="@+id/frag5_pt4"
+            android:layout_toRightOf="@+id/frag18_headtxt"
+            android:layout_toEndOf="@+id/frag18_headtxt"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:id="@+id/frag5_img2"
+            android:src="@drawable/frag5_roundimg2"
+            android:layout_alignTop="@+id/frag18_img1"
+            android:layout_alignRight="@+id/frag5_pt2"
+            android:layout_alignEnd="@+id/frag5_pt2" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

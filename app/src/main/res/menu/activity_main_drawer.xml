@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cardio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cardio" />
+        <item
+            android:id="@+id/nav_fertility"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fertility" />
+        <item
+            android:id="@+id/nav_capsierate"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Capsierate" />
+
+    </group>
+
+
+</menu>

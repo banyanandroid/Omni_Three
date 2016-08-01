@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_cap6"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+    <include layout="@layout/cap_back"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap6_bull1"
+            android:paddingTop="3dp"
+            android:layout_marginTop="215dp"
+            android:src="@drawable/cap_red_arrow_img"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Impacts daily resting energy expenditure capacity"
+            android:id="@+id/cap6_txt1"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/cap6_bull1"
+            android:layout_toRightOf="@+id/cap6_bull1"
+            android:layout_toEndOf="@+id/cap6_bull1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap6_bull2"
+            android:layout_marginTop="8dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/cap6_txt1"
+            android:layout_alignLeft="@+id/cap6_bull1"
+            android:layout_alignStart="@+id/cap6_bull1"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Influencing sympathomimetic stimulatory activity"
+            android:id="@+id/cap6_txt2"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/cap6_bull2"
+            android:layout_alignLeft="@+id/cap6_txt1"
+            android:layout_alignStart="@+id/cap6_txt1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap6_bull3"
+            android:layout_marginTop="8dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/cap6_txt2"
+            android:layout_alignLeft="@+id/cap6_bull2"
+            android:layout_alignStart="@+id/cap6_bull2"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Influencing satiety and reducing appetite"
+            android:id="@+id/cap6_txt3"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/cap6_bull3"
+            android:layout_alignLeft="@+id/cap6_txt2"
+            android:layout_alignStart="@+id/cap6_txt2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap6_bull4"
+            android:layout_marginTop="8dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/cap6_txt3"
+            android:layout_alignLeft="@+id/cap6_bull3"
+            android:layout_alignStart="@+id/cap6_bull3"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Target adipose tissue, without affecting lean mass"
+            android:id="@+id/cap6_txt4"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/cap6_bull4"
+            android:layout_alignLeft="@+id/cap6_txt3"
+            android:layout_alignStart="@+id/cap6_txt3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap6_img"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cap6_bull1"
+            android:layout_toLeftOf="@+id/cap6_bull2"
+            android:layout_toStartOf="@+id/cap6_bull2"
+            android:layout_marginRight="28dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/cap6_img" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cap6_bull5"
+            android:layout_marginTop="8dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/cap6_txt4"
+            android:layout_alignLeft="@+id/cap6_bull4"
+            android:layout_alignStart="@+id/cap6_bull4"
+            android:src="@drawable/cap_red_arrow_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Helps lose excess fat, slowly and without regain"
+            android:id="@+id/cap6_txt5"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/cap6_bull5"
+            android:layout_alignLeft="@+id/cap6_txt4"
+            android:layout_alignStart="@+id/cap6_txt4" />
+
+    </RelativeLayout>
+
+</FrameLayout>

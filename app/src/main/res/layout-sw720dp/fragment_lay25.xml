@@ -1,0 +1,193 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag25"
+    android:background="@color/white"
+    tools:context=".Fragment_1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Energize mitochondria and vitalize Female fertility"
+            android:id="@+id/textView48"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CoQ 10 supplementation"
+            android:id="@+id/textView49"
+            android:textColor="@color/white"
+            android:background="@drawable/frag14_img"
+            android:layout_marginTop="15dp"
+            android:padding="8dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView48"
+            android:layout_alignLeft="@+id/textView48"
+            android:layout_alignStart="@+id/textView48" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView41"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView49"
+            android:layout_alignLeft="@+id/textView49"
+            android:layout_alignStart="@+id/textView49"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="850dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enhances ovarian response, reserve and breeding performance associated with ageing"
+            android:id="@+id/textView50"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView41"
+            android:layout_toRightOf="@+id/imageView41" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView42"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView50"
+            android:layout_alignLeft="@+id/imageView41"
+            android:layout_alignStart="@+id/imageView41"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Helps reversing aged female germ line years and it accelerates ageing process."
+            android:id="@+id/textView51"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView42"
+            android:layout_alignLeft="@+id/textView50"
+            android:layout_alignStart="@+id/textView50"
+            android:layout_toLeftOf="@+id/imageView45"
+            android:layout_toStartOf="@+id/imageView45" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView43"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView51"
+            android:layout_alignLeft="@+id/imageView42"
+            android:layout_alignStart="@+id/imageView42"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Corrects mitochondrial dysfunction and thus improves oocyte quality"
+            android:id="@+id/textView52"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView43"
+            android:layout_alignLeft="@+id/textView51"
+            android:layout_alignStart="@+id/textView51"
+            android:layout_toLeftOf="@+id/imageView45"
+            android:layout_toStartOf="@+id/imageView45" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView44"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView52"
+            android:layout_alignLeft="@+id/imageView43"
+            android:layout_alignStart="@+id/imageView43"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Helps prevent premature ovarian failure"
+            android:id="@+id/textView53"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView44"
+            android:layout_alignLeft="@+id/textView52"
+            android:layout_alignStart="@+id/textView52"
+            android:layout_alignRight="@+id/textView52"
+            android:layout_alignEnd="@+id/textView52" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dose"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:background="@drawable/frag14_img"
+            android:id="@+id/textView54"
+            android:layout_marginTop="42dp"
+            android:layout_below="@+id/imageView44"
+            android:layout_alignRight="@+id/imageView45"
+            android:layout_alignEnd="@+id/imageView45"
+            android:layout_marginRight="55dp"
+            android:layout_marginEnd="55dp"
+            android:layout_toRightOf="@+id/textView49"
+            android:layout_toEndOf="@+id/textView49" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView45"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/bottel_img"
+            android:layout_alignTop="@+id/textView53"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1-2 tablet, either alone or in combination with standard agents"
+            android:id="@+id/textView55"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView54"
+            android:layout_alignLeft="@+id/textView54"
+            android:layout_alignStart="@+id/textView54"
+            android:layout_toLeftOf="@+id/imageView45"
+            android:layout_toStartOf="@+id/imageView45" />
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/back_lay"></include>
+
+
+</FrameLayout>
